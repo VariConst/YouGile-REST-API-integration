@@ -8,3 +8,8 @@
 Также оказалось, что помимо стикеров, получаемых по запросу "/api-v2/string-stickers", есть ещё стикеры доски "custom", для которых можно получить только Id этих стикеров по запросу "/api-v2/boards/{id}" ("stickers -> custom"). Чтобы добавить данные этих стикеров в csv-файл с корректными заголовками типа "Стоимость заказа", пришлось вычислять, какие Id каким названиям стикеров соответствуют и захаркодивать их в скрипте.
 
 При работе с задачами заказчика при первом запуске скрипт выгрузил данные ~2300 задач за ~25 минут, при повторном запуске скрипт выгрузил и обновил данные ~600 задач с дедлайном < 2 месяцев за ~6 минут.
+
+<img width="640" alt="01_YouGile_API_console_log_start" src="https://github.com/user-attachments/assets/e373d9bf-83f2-4384-89b0-a132d2b29672" />
+<img width="574" alt="02_YouGile_API_console_log_tasks" src="https://github.com/user-attachments/assets/288cce98-46dd-4947-a2da-25c541daae78" />
+<img width="899" alt="03_YouGile_API_result_csv" src="https://github.com/user-attachments/assets/f3b71e81-c915-4ed5-894d-64917f9830d1" />
+<img width="601" alt="04_YouGile_API_python_sample_fetch" src="https://github.com/user-attachments/assets/0faa4af1-df5a-4ee9-a6d2-2e491f5d5a74" />
